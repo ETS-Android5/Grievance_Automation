@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1011362409908",
+    "project_id": "grievance-ce451",
+    "storage_bucket": "grievance-ce451.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011362409908:android:3ab0d79bbf0743f25d16e1",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.classification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011362409908-dmn02hajn44q6sat26cpqb0nj7vqq6ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3mFITOSuWlyq1lHvF6fbOTTHiHSmlACc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011362409908-dmn02hajn44q6sat26cpqb0nj7vqq6ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

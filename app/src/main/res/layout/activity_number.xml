@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Number">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+
+
+        android:layout_width="match_parent"
+        android:backgroundTint="@android:color/white"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@android:color/holo_purple"
+        app:title="Registration"
+
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_red_dark">
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/namefield"
+        app:boxStrokeColor="@android:color/holo_purple"
+        app:hintTextColor="@android:color/holo_purple"
+        app:counterTextColor="@android:color/holo_purple"
+        android:layout_above="@+id/textField"
+        android:layout_marginBottom="20dp"
+
+        android:layout_width="300dp"
+
+        android:layout_centerInParent="true"
+
+
+
+
+        android:layout_height="wrap_content"
+        android:hint="Enter your name">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField"
+        app:boxStrokeColor="@android:color/holo_purple"
+        app:hintTextColor="@android:color/holo_purple"
+        app:counterTextColor="@android:color/holo_purple"
+        android:layout_above="@+id/imageView1"
+        android:layout_width="300dp"
+
+       android:layout_centerInParent="true"
+
+
+
+
+        android:layout_height="wrap_content"
+        android:hint="Enter your number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/num"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonupload"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_purple"
+
+
+        android:layout_height="60dp"
+        android:layout_below="@+id/textField"
+
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Theme.MaterialComponents"
+        android:text="Next" />
+
+
+
+</RelativeLayout>

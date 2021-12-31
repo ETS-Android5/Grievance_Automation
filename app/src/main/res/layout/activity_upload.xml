@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:backgroundTint="@android:color/white"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@android:color/holo_purple"
+        app:title="Upload"
+
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_red_dark">
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/anime"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/anime"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <Button
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Theme.MaterialComponents"
+        android:text="Capture" />
+    <Button
+        android:id="@+id/buttonupload"
+        android:layout_width="350dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/Theme.MaterialComponents"
+        android:text="Upload" >
+    </Button>
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:visibility="gone"
+        android:background="@drawable/ic_baseline_image_24"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/textid"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/anime"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+
+
+        android:layout_centerInParent="true"
+
+        android:text="Hi this is grievance classifier app"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:id="@+id/buttoncapture"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        app:elevation="4dp"
+
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+
+        android:backgroundTint="@android:color/white"
+        android:layout_margin="80dp"
+
+
+        app:fabCustomSize="55dp" />
+
+</RelativeLayout>

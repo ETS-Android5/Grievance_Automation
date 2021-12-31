@@ -1,0 +1,4 @@
+0 potholes
+1 sewage pipeline
+2 wastage dump
+3 water stagnant
